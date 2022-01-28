@@ -23,8 +23,6 @@ function App() {
     file && getImage();
   }, [file]);
 
-  console.log(image);
-
   return (
     <div>
       <Navbar />
